@@ -1,0 +1,19 @@
+{
+    "name": "gram/wechat",
+    "description": "微信公众号、开放平台SDK",
+    "authors": [
+        {
+            "name": "Jianfu Li",
+            "email": "me@ljf.me"
+        }
+    ],
+    "require": {
+        "guzzle/http": "3.9.2",
+        "phpunit/phpunit": "4.2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Gram\\WeChat": "src/"
+        }
+    }
+}
